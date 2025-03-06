@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIM Authenticator | Secure Two-Factor Authentication</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo-text">COIM</span>
+                <span class="logo-highlight">Authenticator</span>
+            </a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="#download" class="download-btn">Download</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="reveal-text">Secure Your Accounts With Confidence</h1>
+            <p class="reveal-text delay-1">Generate two-factor authentication codes that sync seamlessly across all your
+                devices</p>
+            <div class="hero-buttons reveal-text delay-2">
+                <a href="#download" class="primary-btn">Download Now</a>
+                <a href="#features" class="secondary-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <div class="auth-app">
+                        <div class="auth-header">COIM Authenticator</div>
+                        <div class="auth-code">
+                            <span class="digit">2</span>
+                            <span class="digit">3</span>
+                            <span class="digit">9</span>
+                            <span class="digit">8</span>
+                            <span class="digit">1</span>
+                            <span class="digit">7</span>
+                        </div>
+                        <div class="auth-timer">
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle" stroke="#4f46e5" stroke-width="8"
+                                    fill="transparent" r="52" cx="60" cy="60" />
+                            </svg>
+                            <span class="timer-count">30</span>
+                        </div>
+                        <div class="auth-accounts">
+                            <div class="account active">
+                                <div class="account-icon"><i class="fab fa-google"></i></div>
+                                <div class="account-name">Google</div>
+                            </div>
+                            <div class="account">
+                                <div class="account-icon"><i class="fab fa-github"></i></div>
+                                <div class="account-name">GitHub</div>
+                            </div>
+                            <div class="account">
+                                <div class="account-icon"><i class="fab fa-dropbox"></i></div>
+                                <div class="account-name">Dropbox</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">Advanced Security Features</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure TOTP Generation</h3>
+                <p>Industry-standard time-based one-time passwords for maximum security</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+                <h3>QR Code Scanning</h3>
+                <p>Add new accounts in seconds with our fast and accurate QR scanner</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-keyboard"></i>
+                </div>
+                <h3>Manual Entry</h3>
+                <p>Easily add accounts manually when QR codes aren't available</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-sync"></i>
+                </div>
+                <h3>Cloud Sync</h3>
+                <p>Your authentication codes securely synchronized across all your devices</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Download COIM Authenticator</h3>
+                    <p>Get the app on your preferred device - iOS, Android, or desktop</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Add Your Accounts</h3>
+                    <p>Scan QR codes from your service providers or enter setup keys manually</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Generate Codes</h3>
+                    <p>Access your secure verification codes whenever you need to log in</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Stay Secure</h3>
+                    <p>Protect all your important accounts with an additional layer of security</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="download-container">
+            <div class="download-content">
+                <h2>Download COIM Authenticator</h2>
+                <p>Secure your online accounts today with our advanced 2FA solution</p>
+                <div class="app-buttons">
+                    <a href="#" class="app-store">
+                        <i class="fab fa-apple"></i>
+                        <span>
+                            <small>Download on the</small>
+                            App Store (iOS)
+                        </span>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=us.kues.coim_authenticator"
+                        class="play-store">
+                        <i class="fab fa-google-play"></i>
+                        <span>
+                            <small>GET IT ON</small>
+                            Google Play
+                        </span>
+                    </a>
+                    <a href="#" class="web-store">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>
+                            <small>Download for</small>
+                            Windows
+                        </span>
+                    </a>
+                    <a href="#" class="web-store">
+                        <i class="fa-brands fa-linux"></i>
+                        <span>
+                            <small>Download for</small>
+                            Linux
+                        </span>
+                    </a>
+                    <a href="#" class="web-store">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>
+                            <small>Download for</small>
+                            macOS
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="download-image">
+                <img src="assets/multi-device.svg" alt="COIM Authenticator on multiple devices">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="logo-text">COIM</span>
+                <span class="logo-highlight">Authenticator</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 COIM Authenticator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

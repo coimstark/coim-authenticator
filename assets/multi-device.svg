@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background glow -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="400" cy="300" rx="350" ry="250" fill="url(#glow)" />
+
+  <!-- Desktop Monitor -->
+  <rect x="150" y="100" width="350" height="220" rx="10" fill="#1f2937" stroke="#374151" stroke-width="2" />
+  <rect x="160" y="110" width="330" height="190" rx="5" fill="#111827" />
+  <rect x="245" y="320" width="160" height="15" rx="5" fill="#1f2937" stroke="#374151" stroke-width="1" />
+  <rect x="295" y="335" width="60" height="5" rx="2" fill="#1f2937" stroke="#374151" stroke-width="1" />
+  <rect x="280" y="150" width="90" height="110" rx="10" fill="#0f172a" stroke="#4f46e5" stroke-width="1" opacity="0.8" />
+  <text x="325" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#f9fafb">COIM</text>
+  <text x="325" y="205" font-family="Arial" font-size="9" text-anchor="middle" fill="#f9fafb">Authenticator</text>
+  <text x="325" y="235" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#f9fafb">139807</text>
+  <circle cx="325" cy="255" r="10" fill="none" stroke="#4f46e5" stroke-width="2" stroke-dasharray="40 20" />
+
+  <!-- Tablet -->
+  <rect x="500" y="150" width="160" height="200" rx="15" fill="#1f2937" stroke="#374151" stroke-width="2" />
+  <rect x="510" y="170" width="140" height="160" rx="5" fill="#111827" />
+  <circle cx="580" cy="345" r="10" fill="#374151" />
+  <rect x="545" y="205" width="70" height="90" rx="10" fill="#0f172a" stroke="#4f46e5" stroke-width="1" opacity="0.8" />
+  <text x="580" y="230" font-family="Arial" font-size="10" text-anchor="middle" fill="#f9fafb">COIM</text>
+  <text x="580" y="245" font-family="Arial" font-size="7" text-anchor="middle" fill="#f9fafb">Authenticator</text>
+  <text x="580" y="270" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#f9fafb">752914</text>
+
+  <!-- Smartphone -->
+  <rect x="350" y="230" width="90" height="170" rx="15" fill="#1f2937" stroke="#374151" stroke-width="2" />
+  <rect x="355" y="240" width="80" height="140" rx="8" fill="#111827" />
+  <circle cx="395" cy="390" r="10" fill="#374151" />
+  <rect x="370" y="255" width="50" height="70" rx="8" fill="#0f172a" stroke="#4f46e5" stroke-width="1" opacity="0.8" />
+  <text x="395" y="275" font-family="Arial" font-size="8" text-anchor="middle" fill="#f9fafb">COIM</text>
+  <text x="395" y="290" font-family="Arial" font-size="6" text-anchor="middle" fill="#f9fafb">Auth</text>
+  <text x="395" y="310" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#f9fafb">248631</text>
+
+  <!-- Connection lines -->
+  <path d="M325 270 L 350 290" stroke="#4f46e5" stroke-width="1" stroke-dasharray="5 3" opacity="0.6" />
+  <path d="M395 330 L 450 310 L 545 250" stroke="#4f46e5" stroke-width="1" stroke-dasharray="5 3" opacity="0.6" />
+
+  <!-- Secure sync symbol -->
+  <circle cx="450" cy="270" r="25" fill="rgba(79, 70, 229, 0.1)" />
+  <path d="M450 255 L450 285 M440 265 L460 275 M460 265 L440 275" stroke="#4f46e5" stroke-width="2" />
+</svg>
